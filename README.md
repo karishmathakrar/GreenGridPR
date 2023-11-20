@@ -43,8 +43,8 @@ GreenGridPR is a project aimed at optimizing the placement of renewable energy i
 |-- .gitignore
 ```
 
-### Data
-Contains all the datasets used in the project. It includes PR100 data, Wind Atlas data, and Solar Atlas data, each in their respective subdirectories.
+### Data (/data)
+Contains all the datasets used in the project. It includes PR100 data, Wind Atlas data, and Solar Atlas data, each in their respective subdirectories. It also includes the `download_pr100_data.py` script.
 
 ### Source (/src)
 This directory contains all the source code for the project.
@@ -65,7 +65,20 @@ YAML file to build the conda environment
 ## Setup and Running
 ### Installation
 To set up the environment for this project, run:
+
 `conda env create -f environment.yml -p ./environment`
+
+To activate the environment, run:
+
+`conda activate ./environment`
+
+To install `boto3`, which is used to download the PR100 data, run:
+
+`pip install boto3`
+
+To download the PR100 data, navigate to the data directory (`cd data`), and run:
+
+`python download_pr100_data.py`
 
 ### Running the Code
 To run the main application:
