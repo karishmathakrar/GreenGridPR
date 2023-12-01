@@ -1,0 +1,17 @@
+name: green-grid-pr
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas~=2.1.3
+  - numpy~=1.26.2
+  - matplotlib~=3.8.2
+  - jupyterlab~=4.0.9
+  - h5pyd~=0.16.0
+  - scipy~=1.11.4
+  - geopandas~=0.14.1
+  - shapely~=2.0.2
+  - boto3~=1.33.5
+  - botocore~=1.33.5
+  - pyarrow~=14.0.1
