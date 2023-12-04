@@ -39,7 +39,7 @@ bucket = 'oedi-data-lake'
 base_s3_path = 'PR100/'
 
 # Local base path
-local_base_path = './PR100'
+local_base_path = './PR100_new'
 
 download_s3_folder(bucket, base_s3_path, local_base_path)
 
