@@ -1,0 +1,8 @@
+Episode,Total Reward,Epsilon,Cell Index,Action Type,Reward,Energy Output,Unmet Demand
+,,,18248,wind,0,61376,57126123
+,,,4058,wind,0,132617,57054882
+,,,5245,wind,0,178761,57008738
+,,,9939,wind,0,199283,56988216
+,,,13560,solar,0,696893,56490606
+,,,5736,wind,0,782874,56404625
+,,,3621,wind,0,835035,56352464
